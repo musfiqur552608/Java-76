@@ -2,5 +2,14 @@
 package Class;
 
 public class ClassDemo {
-    int x = 5;
+    //Static Method
+    static void sum(){
+        int a = 21, b = 22;
+        System.out.println("Sum = "+ (a+b));
+    }
+    
+    public void sub(){
+        int a = 21, b = 22;
+        System.out.println("Sub = "+ (a-b));
+    }
 }
